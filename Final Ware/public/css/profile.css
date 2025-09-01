@@ -1,0 +1,188 @@
+/* ==========================
+   Professional Profile Page Styles
+   ========================== */
+
+.profile-container {
+    max-width: 900px;
+    margin: 2.5rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eaeef2;
+}
+
+.profile-section {
+    background: #f9fbfd;
+    border-radius: 0.375rem;
+    margin-bottom: 2rem;
+    padding: 1.75rem;
+    border: 1px solid #e1e7ec;
+}
+
+.profile-section header h2 {
+    color: #2c3e50;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    letter-spacing: -0.25px;
+}
+
+.profile-section header p {
+    color: #64748b;
+    font-size: 0.9375rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.profile-section form {
+    margin-top: 1.25rem;
+}
+
+.profile-section label,
+.x-input-label {
+    font-weight: 500;
+    color: #475569;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 0.9375rem;
+}
+
+.profile-section input[type="text"],
+.profile-section input[type="email"],
+.profile-section input[type="password"],
+.profile-section textarea,
+.profile-section .block.w-full {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    font-size: 0.9375rem;
+    background: #fff;
+    color: #334155;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+.profile-section input:focus,
+.profile-section textarea:focus {
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.x-input-error,
+.profile-section .text-red-600,
+.profile-section .text-red-500 {
+    color: #dc3545 !important;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    font-weight: 400;
+}
+
+.profile-section .flex.items-center.gap-4,
+.profile-section .flex.items-center.gap-4 > * {
+    margin-top: 1.5rem;
+}
+
+.x-primary-button,
+button[type="submit"] {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 0.6875rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin-right: 0.75rem;
+    display: inline-block;
+}
+
+.x-primary-button:hover,
+button[type="submit"]:hover {
+    background: #2563eb;
+    transform: translateY(-1px);
+}
+
+.x-danger-button {
+    background: #f8f9fa;
+    color: #dc3545;
+    border: 1px solid #e2e8f0;
+}
+.x-danger-button:hover {
+    background: #f1f5f9;
+    color: #c82333;
+}
+
+.x-secondary-button {
+    background: #f8f9fa;
+    color: #64748b;
+    border: 1px solid #e2e8f0;
+}
+.x-secondary-button:hover {
+    background: #f1f5f9;
+    color: #475569;
+}
+
+.profile-section .text-green-600,
+.profile-section .text-green-400 {
+    color: #28a745 !important;
+    font-weight: 400;
+}
+
+.profile-section .text-gray-600,
+.profile-section .text-gray-400 {
+    color: #64748b !important;
+}
+
+.profile-section .underline {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3b82f6;
+}
+
+.profile-section .rounded-md {
+    border-radius: 0.375rem;
+}
+
+.profile-section .focus\:ring-indigo-500:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Additional Professional Themes */
+.profile-section .theme-primary {
+    color: #3b82f6;
+}
+.profile-section .theme-secondary {
+    color: #64748b;
+}
+.profile-section .theme-success {
+    color: #28a745;
+}
+.profile-section .theme-warning {
+    color: #fd7e14;
+}
+.profile-section .theme-light {
+    color: #f8f9fa;
+}
+.profile-section .theme-dark {
+    color: #1e293b;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        margin: 1rem auto;
+        padding: 1.25rem;
+    }
+    .profile-section {
+        padding: 1.25rem;
+    }
+    .profile-section header h2 {
+        font-size: 1.125rem;
+    }
+}

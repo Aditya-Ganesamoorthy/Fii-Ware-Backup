@@ -1,0 +1,67 @@
+/* dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1f2937;
+    color: #f9fafb;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar .menu-btn {
+    background: none;
+    border: none;
+    color: #f9fafb;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    transition: background 0.3s ease;
+}
+
+.sidebar .menu-btn:hover {
+    background-color: #374151;
+    border-radius: 5px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 8px 16px;
+    color: #d1d5db;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.sidebar a:hover {
+    background-color: #4b5563;
+    border-radius: 4px;
+}
+
+.submenu {
+    padding-left: 15px;
+    display: none;
+}
+
+.menu-btn.active + .submenu {
+    display: block;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 2rem;
+    background-color: #f3f4f6;
+}
